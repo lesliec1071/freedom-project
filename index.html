@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #789;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; 
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #789;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+      </style>
+  </head>
+  <body>
+    <script src="script.js"></script>
+<header>
+  <h2 align=left>Medical Options</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">What Is A Cure?</a></li>
+      <br>
+      <br>
+      <li><a href="#">Benefits Of Cures</a></li>
+      <br>
+      <br>
+      <li><a href="#">Disadvantages Of  Cures</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+   <div id="container"></div>
+   <div id="image" style="float:center;"></div>
+   <img src="https://www.curestoken.com/images/logo-white.png" width="400" height="100" alt="Paper" align="right"/>
+   <br>
+  <h2 align="center"><b>Cures</b></h2>
+  </article>
+</section>
+
+<footer>
+</footer>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">What Is A Treatment?</a></li>
+      <br>
+      <br>
+      <li><a href="#">Benefits Of Treatments</a></li>
+      <br>
+      <br>
+      <li><a href="#">Disadvantages Of Treatments</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <div id="container"></div>
+   <div id="image" style="float:center;"></div>
+   <img src="https://www.thehealthwallet.com/img/about.png" width="200" height="200" alt="Person" align="right"/>
+   <br>
+  <h2 align="center"><b>Treatments</b></h2>
+  </article>
+</section>
+
+<footer>
+</footer>
+  </body>
+</html>
