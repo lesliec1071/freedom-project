@@ -80,6 +80,20 @@
 .g{
   float:right;width:370px;height:300px; border-radius: 40%;
 }
+.grid-container {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 50% 50%; 
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  border: 3px solid #ffffff;
+}
 	@media only screen and (max-width: 860px) {
 		.g{
   float:right;width:300px;height:300px; border-radius: 40%;
@@ -123,7 +137,16 @@
     <br>
     <br>
     <br>
-  <div class="c1"><p align="center"><u><b>Freedom Project</u></b></p>The freedom project is a project where we get to choose a topic we would like to further study and use our coding skills and character skills throughout it. We have spent time working on it in class and at home. Throughout the first semester we have used the skills we learned in class to create the freedom project. Some character skills we used are collaboration, agency. My freedom project revolves around the medical field. It is focused on what is a cure, what is a treatment,the benefits and disadvantages of both.</div>
-
+    <div class="grid-container">
+  <div>
+    <h2 align="center"><u>Freedom Project</u></h2>
+<p>The freedom project is a project where we get to choose a topic we would like to further study and use our coding skills and character skills throughout it. We have spent time working on it in class and at home. Throughout the first semester we have used the skills we learned in class to create the freedom project. Some character skills we used are collaboration, agency. My freedom project revolves around the medical field. It is focused on what is a cure, what is a treatment,the benefits and disadvantages of both.</p>
+  </div>
+  <div>
+    <h2 align="center"><u>References</u></h2>
+<p>“What's the Difference Between a Treatment and a Cure? (for Teens) - Nemours KidsHealth.” Edited by Steven Dowshen, KidsHealth, The Nemours Foundation, May 2018, kidshealth.org/en/teens/curable.html</p>
+<p>“What's the Key Difference between a Cure and a Treatment?” Healthicine, healthicine.org/wordpress/whats-the-key-difference-between-a-cure-and-a-treatment/</p>
+</div>
+</div>
     </body>
 </html>
