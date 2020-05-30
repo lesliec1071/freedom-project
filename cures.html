@@ -4,97 +4,141 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <style>
-* {
-  box-sizing: border-box;
-}
+    <link href="style.css" rel="stylesheet" type="text/css" /> 
+ </head>
+ <style>
+   body {
+     background-color:#c9e6ff; 
+   }
 
-body {
-  margin: 0;
-}
-
-/* Style the header */
-
-#myHeader {
-  background-image: url(cure4.jpg);
- align: center;
-  padding: 100px;
-  height: 300px;
-  background-repeat: no repeat;
-} 
-
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: black;
-}
- body{ 
- background-color: lightblue;
- }
-/* Style the topnav links */
-.topnav a {
-  float: left;
+.center {
   display: block;
-  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.serif {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container-fluid{
+  background:#ffffff;
+  padding: 5px;
+  }
+.b {
+  border: 4px solid white;
+  padding: 20px;
+  height: 10%;
+  width: 50%;
+margin: .55px;
+font-size: 20px;
+}
+.c1 {
+  border: 4px solid white;
+  padding: 20px;
+  height: 10%;
+  width: 50%;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px; 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+li {
+  float: left;
+   border-right:1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color:black;
+li a:hover:not(.active) {
+  background-color: #c9e6ff;
 }
-</style>
-<body>
-<h1 id="myHeader"></h1>
-<div class="topnav">
-<a href="#C4">What Is A Cure?</a>
-<a href="#C1">Disadvantages</a>
-<a href="#C2">Freedom Project</a>
-<a href="#C3">Benefits</a>
-<a href="#C5">Extra Info / Info</a>
-<a href="index.html">Main Page</a>
- <a href="treatment.html">Treatment</a>
+
+.active {
+  background-color: #c9e6ff;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 50% 50%; 
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  border: 3px solid #ffffff;
+}
+   </style>
+  <body>
+    <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <div class="container-fluid" align="center"><ul>
+  <li><a href="index.html">Main Page</a></li>
+  <li><a href="treatment.html">Treatment</a></li>
+  <li style="float:right"><a class="active" href="cures.html">Cure</a></li>
+</ul>
 </div>
-<h2 id="C2" align="center">Freedom Project</h2>
-<p> The freedom project is a project where we get to choose a topic we would like to further study and use our coding skills and character skills throughout it. We have spent time working on it in class and at home. Throughout the first semester we have used the skills we learned in class to create the freedom project. Some character skills we used are collaboration, agency. My freedom project revolves around the medical field. It is focused on what is a cure, what is a treatment,the benefits and disadvantages of both. 
+  <br>
+  <br>
+    <img src="cure4.jpg" class="container-fluid" style="float:right;width:40%;height:48%;">
+  <div class="b"><p align="center"><u><b>What Does the Term Cure Mean?</u></b></p>
+  There are two terms when referred to finding a solution or  resolution to a problem in the medical field. A cure is one of them. The basic definition of cure is, The patient will no longer have that particular condition, it will be removed completely. Usually cures take longer to find than treatments and the process to look for a more cure is more rigorous. Cures are used to make an illness or disease disappear entirely so the patient will no longer be affected by it or suffer any longer. Unfortunately, not every illness in the world has a cure. If there is not a cure for a certain illness usually there are multiple treatments trying to fight and control the disease or illness but, not always.
+  <br>
+  <br>
+  <br>
+  <br>
+  </div> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+<div class="grid-container">
+  <div>
+    <img src="up2.png" style="width:100px;height:100px;">
+    <h2 align="center"><u>Benefits</u></h2>
+<p>A cure will guarantee and will get rid of the illness entirely.</p>
+  </div>
+  <div>
+    <img src="down2.png" style="width:100px;height:100px;">
+    <h2 align="center"><u>Disadvantages</u></h2>
+<p>Cures may be very expensive</p>
+<p>There might not be a cure for every disease</p>
+<p>The process to look for cures is long and difficult.
 </p>
-<br>
-<hr>
-<br>
-<h2 id="C5" align="center"><img src="doc3.png" alt="doc" style="float:right;width:200px;height:200px;">Extra Info / Tips</h2>
+</div>
+</div>
+  <div class="c1"><img src="doc3.png" class="center" style="width:200px;height:200px;"> <h2 align="center"><u>Extra Info / Tips</u></h2><p>People often confuse the terms treatment and cures and their meanings which can often lead to false hope.</p>
 
-<ul><li><p>People often confuse the terms treatment and cures and their meanings which can often lead to false hope.</p></li>
+<p>Patients and their family members to do thorough research about the illness and the treatments that are available and if there are any cures. </p>
 
-<li><p>Patients and their family members to do thorough research about the illness and the treatments that are available and if there are any cures. </p></li>
+<p>Families who have someone that is ill or in need of medical attention should always look for the big picture of how everything that is being used usually affects other patients and the smaller details of how their illness and the treatment or cure that is being received affects the patient individually. </p>
 
-<li><p>Families who have someone that is ill or in need of medical attention should always look for the big picture of how everything that is being used usually affects other patients and the smaller details of how their illness and the treatment or cure that is being received affects the patient individually. </p></li>
+<p> Both treatments and cures have their benefits and negative impacts</p>
 
-<li><p> Both treatments and cures have their benefits and negative impacts</p></li>
+<p>The impacts depend on the type of illness and the type of treatment or cure that is being used.</p></div>
 
-<li><p>The impacts depend on the type of illness and the type of treatment or cure that is being used.</p></li></ul>
-<br>
-<hr>
-<br>
-<h2 id="C4" align="center">What Is A Cure?</h2>
-<p>They are two terms when referred to finding a solution or  resolution to a problem in the medical field. A cure is one of them, the patient will no longer have that particular condition, it will be removed completely. Usually cures take longer to find than treatments and the process to look for a more cure is more rigorous. Cures are used to make an illness or disease disappear entirely so the patient will no longer be affected by it or suffer any longer. Unfortunately, there are no cures for every illness in the world. If there is not a cure for a certain illness usually there are multiple treatments trying to fight the disease or illness.
-</p>
-<br>
-<hr>
-<br>
-<h2 id="C3" align="center"><img src="up2.png" alt="up" style="float:right;width:100px;height:100px;">Benefits</h2>
-<ul><li><p>A cure will guarantee and will get rid of the illness entirely. </p></li></ul>
-<br>
-<hr>
-<br>
-<h2 id="C1" align="center"><img src="down2.png" alt="down" style="float:right;width:100px;height:100px;">Disadvantages</h2>
-<ul><li><p>Cures may be very expensive</p></li>
-<p><li>There might not be a cure for every disease</li></p>
-<p><li>The process to look for cures is long and difficult.
-</li></p></ul>
-<br>
-</body>
+    </body>
 </html>

@@ -1,107 +1,129 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <style>
-* {
-  box-sizing: border-box;
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+	body {
+		background-color: #c9e6ff;
+	}
+
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+
+	.serif {
+		font-family: "Times New Roman", Times, serif;
+	}
+
+	.container-fluid {
+		background: #ffffff;
+		padding: 5px;
+	}
+
+	.b {
+		border: 4px solid white;
+		padding: 20px;
+		height: 10%;
+		width: 50%;
+		margin: .55px;
+		font-size: 20px;
+	}
+
+	.c1 {
+		border: 4px solid white;
+		padding: 20px;
+		height: 10%;
+		width: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 20px;
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #ffffff;
+	}
+
+	li {
+		float: left;
+		border-right: 1px solid #bbb;
+	}
+
+	li a {
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+	li a:hover:not(.active) {
+		background-color: #c9e6ff;
+	}
+
+	.active {
+		background-color: #c9e6ff;
+	}
+
+.g{
+  float:right;width:370px;height:300px; border-radius: 40%;
 }
-body {
-  font-family: Arial, Helvetica, sans-serif;
-} 
-nav ul {
-  list-style-type: none;
-  padding: 0;
+	@media only screen and (max-width: 860px) {
+		.g{
+  float:right;width:300px;height:300px; border-radius: 40%;
 }
-body, html {
-  height: 100%;
-  margin: 0;
 }
 
-.bg {
-  background-image: url(background.jpg);
-  height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.btn {
-  border: none;
-  background-color: inherit;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-  display: inline-block;
-}
-.btn:hover {background: #eee;}
+</style>
 
-.success {color: black;}
-.info {color: black;}
+<body>
+	<script src="script.js">
 
-      </style>
-  </head>
-  <body>
-    <script src="script.js"></script>
-<div class="bg">
-  <br> 
-  <br>
-  <br>
-  <br>
-  <br> 
-  <br>
-  <br>
-  <br>
-  <br>
-  <br> 
-  <br>
-  <br>
-  <br>
-  <br> 
-  <br>
-  <br>
-  <br>
-  <br>
-  <br> 
-  <br>
-  <br>
-  <br>
-  <br> 
-  <br>
-  <br>
-  <br>
-  <br>
-  <br> 
-  <br>
-  <br>
-  <br>
-  <br>
-  <br> 
-  <br>
-  <br>
-  <br>
-  <br>
-<br>
-<br>
-<br>
-<a href="cures.html"><button class="btn success">Cure</button></a>
-<a href="treatment.html"><button class="btn info">Treatment</button></a>
+	</script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+	 crossorigin="anonymous">
 
-  <!--<a href="#">What Is A Cure?</a>
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+	 crossorigin="anonymous">
 
-      <a href="#">Benefits Of Cures</a>
-      
- <a href="#">Disadvantages Of  Cures</a>
- 
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+	 crossorigin="anonymous">
 
-  
-  <a href="#">What Is A Treatment?</a>
-     
-   <a href="#">Benefits Of Treatments</a>
-      
-   <a href="#">Disadvantages Of Treatments</a>
-   -->
-  </body>
+	</script>
+
+	<div class="container-fluid" align="center">
+		<ul>
+			<li><a href="cures.html">Cure</a></li>
+			<li><a href="treatment.html">Treatment</a></li>
+			<li style="float:right"><a class="active" href="index.html">Main Page</a></li>
+		</ul>
+	</div>
+	<br>
+    <img src="background.jpg" class="center container-fluid" style="width:60%;height:50%;">
+    <br>
+  <br>
+  <br>
+    <img src="girl.jpg" class="g">
+  <div class="b"><p align="center"><u><b> About Me</u></b></p>
+  My name is Leslie Calle and I am a software engineer who is intrested in the medical field. I am currently a sophmore in the Highschool Of Telecommunications Arts and Technology. I created this website to inform my audience on the differences of medical terms "Cure" and "Treatment". It has come to my attention that various people do not understand the difference behind the two terms which often led them into false hope. Therfore, I took it upon myself to create a website where I am able to guide my audience and help them understand the two terms with more depth.</div> 
+    <br>
+    <br>
+    <br>
+  <div class="c1"><p align="center"><u><b>Freedom Project</u></b></p>The freedom project is a project where we get to choose a topic we would like to further study and use our coding skills and character skills throughout it. We have spent time working on it in class and at home. Throughout the first semester we have used the skills we learned in class to create the freedom project. Some character skills we used are collaboration, agency. My freedom project revolves around the medical field. It is focused on what is a cure, what is a treatment,the benefits and disadvantages of both.</div>
+
+    </body>
 </html>
